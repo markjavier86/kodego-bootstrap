@@ -91,6 +91,11 @@
         <div class="modal-content">
           <div class="modal-header">
             <h5>Enrollment</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+            ></button>
           </div>
           <div class="modal-body">
             <p>Fill out this form and we will get back to you</p>
@@ -106,8 +111,8 @@
                 <input type="text" class="form-control" id="last-name" />
               </div>
               <div class="mb-3">
-                <label for="e-mail" class="col-form-label">Email:</label>
-                <input type="e-mail" class="form-control" id="e-mail" />
+                <label for="email" class="col-form-label">Email:</label>
+                <input type="text" class="form-control" id="email" />
               </div>
               <div class="mb-3">
                 <label for="phone" class="col-form-label">Phone:</label>
@@ -117,13 +122,13 @@
           </div>
           <div class="modal-footer">
             <button
-              class="btn btn-secondary"
               type="button"
+              class="btn btn-secondary"
               data-bs-dismiss="modal"
             >
               Close
             </button>
-            <button class="btn btn-dark btn-lg" type="button">Submit</button>
+            <button type="button" class="btn btn-primary">Submit</button>
           </div>
         </div>
       </div>
@@ -174,7 +179,7 @@
               <div class="h1 text-center bg-dark">
                 <i class="bi bi-laptop"></i>
                 <div class="card-body text-center">
-                  <h3 class="card-title">Services</h3>
+                  <h3 class="card-title">Testimonials</h3>
                   <p class="lead">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Dolorem vel aliquam earum sint consectetur consequuntur
@@ -190,7 +195,7 @@
               <div class="h1 mb-3 text-center">
                 <i class="bi bi-laptop"></i>
                 <div class="card-body text-center">
-                  <h3 class="card-title">Services</h3>
+                  <h3 class="card-title">Contact</h3>
                   <p class="lead">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Dolorem vel aliquam earum sint consectetur consequuntur
@@ -204,6 +209,8 @@
         </div>
       </div>
     </section>
+
+    <!-- Learn SEction -->
 
     <section class="p-5">
       <div class="container">
@@ -263,6 +270,141 @@
       </div>
     </section>
 
+    <!-- Questions -->
+    <section id="questions" class="p-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+
+        <div class="accordion accordion-flush" id="questions">
+          <!-- question 1 -->
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#question-one"
+              > Where exactly are you located
+              </button>
+            </h2>
+            <div>
+              <div
+                id="question-one"
+                class="accordion-collapse collapse"
+                data-bs-parent="#questions"
+              >
+                <div class="accordion-body">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Modi, molestiae! Quos quod animi alias debitis, tempora hic
+                  distinctio perferendis suscipit maiores dignissimos, neque id
+                  qui!
+                </div>
+              </div>
+          </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button
+            class="accordion-button collapsed"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#question-two"
+          > How much does it cost to attend?
+          </button>
+        </h2>
+        <div>
+          <div
+            id="question-two"
+            class="accordion-collapse collapse"
+            data-bs-parent="#questions"
+          >
+            <div class="accordion-body">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Modi, molestiae! Quos quod animi alias debitis, tempora hic
+              distinctio perferendis suscipit maiores dignissimos, neque id
+              qui!
+            </div>
+          </div>
+      </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button
+        class="accordion-button collapsed"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#question-three"
+      > What do I need to know?
+      </button>
+    </h2>
+    <div>
+      <div
+        id="question-three"
+        class="accordion-collapse collapse"
+        data-bs-parent="#questions"
+      >
+        <div class="accordion-body">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+          Modi, molestiae! Quos quod animi alias debitis, tempora hic
+          distinctio perferendis suscipit maiores dignissimos, neque id
+          qui!
+        </div>
+      </div>
+  </div>
+</div>
+<div class="accordion-item">
+  <h2 class="accordion-header">
+    <button
+      class="accordion-button collapsed"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#question-four"
+    > How do I sign up?
+    </button>
+  </h2>
+  <div>
+    <div
+      id="question-four"
+      class="accordion-collapse collapse"
+      data-bs-parent="#questions"
+    >
+      <div class="accordion-body">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        Modi, molestiae! Quos quod animi alias debitis, tempora hic
+        distinctio perferendis suscipit maiores dignissimos, neque id
+        qui!
+      </div>
+    </div>
+</div>
+</div>
+<div class="accordion-item">
+  <h2 class="accordion-header">
+    <button
+      class="accordion-button collapsed"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#question-five"
+    > Do you help me find a job?
+    </button>
+  </h2>
+  <div>
+    <div
+      id="question-five"
+      class="accordion-collapse collapse"
+      data-bs-parent="#questions"
+    >
+      <div class="accordion-body">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        Modi, molestiae! Quos quod animi alias debitis, tempora hic
+        distinctio perferendis suscipit maiores dignissimos, neque id
+        qui!
+      </div>
+    </div>
+</div>
+</div>
+
+    </section>
+
     <!-- Instructors -->
 
     <section class="p-5 bg-primary">
@@ -272,7 +414,7 @@
           Our instructors all have 5+ working as a developer in the industry
         </p>
         <div class="row">
-          <div class="col-md-6 col-lg-3">
+          <div class="col-md-6 col-lg-3 mb-2">
             <div class="card bg-light">
               <div class="card-body text-center">
                 <img
@@ -292,7 +434,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3">
+          <div class="col-md-6 col-lg-3 mb-2">
             <div class="card bg-light">
               <div class="card-body text-center">
                 <img
@@ -312,7 +454,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3">
+          <div class="col-md-6 col-lg-3 mb-2">
             <div class="card bg-light">
               <div class="card-body text-center">
                 <img
@@ -332,7 +474,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-6 col-lg-3">
+          <div class="col-md-6 col-lg-3 mb-2">
             <div class="card bg-light">
               <div class="card-body text-center">
                 <img
@@ -360,35 +502,40 @@
     <section class="p-5">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 p-2">
-            <h2 class="text-center">Contact Info</h2>
-              <ul class="list-group list-group-flush lead">
-                <li class="list-group-item">
-                  <span class="fw-bold">Main Location:</span> 12 Kodego Street,
-                  Caloocan City
-                </li>
-                <li class="list-group-item">
-                  <span class="fw-bold">Enrollment Phone:</span> (555) 555-5555
-                </li>
-                <li class="list-group-item"><span class="fw-bold"> Inquiry Phone:</span>(333) 333-333</li>
-                <li class="list-group-item"><span class="fw-bold"> Enrollment Email:</span>enroll@kodego.com</li>
-                <li class="list-group-item"><span class="fw-bold"> Inquiry Email:</span>inquiry@kodego.com</li>
-              </ul>
-            </div>
+          <div class="col-md-6">
+            <h2 class="text-center mb-4">Contact Info</h2>
+            <ul class="list-group list-group-flush lead">
+              <li class="list-group-item">
+                <span class="fw-bold">Main Location:</span> 50 Main Street
+                Angeles, Pampanga
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Enrollment Phone:</span> (555) 555-5555
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Inquiry Phone:</span> (333) 333-3333
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Enrollment Email:</span> enroll@kodego.com
+              </li>
+              <li class="list-group-item">
+                <span class="fw-bold">Inquiry Email:</span> inquiry@kodego.com
+              </li>
+            </ul>
           </div>
           <div class="col-md-6">
             <div class="d-none d-md-block">
-           <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d123489.27614693367!2d120.95969339273107!3d14.710336875568517!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b1b519841b5f%3A0x5e770e225042d1a!2sCaloocan%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1659751543897!5m2!1sen!2sph"
-              width="600"
-              height="450"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61619.49162410937!2d120.52459959718412!3d15.146355401184328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396f286eed2e61f%3A0x3ded82248ad9b436!2sAngeles%2C%20Pampanga!5e0!3m2!1sen!2sph!4v1657649301727!5m2!1sen!2sph"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
           </div>
-           </div>
         </div>
       </div>
     </section>
@@ -396,133 +543,15 @@
     <!--footer-->
     <footer class="p-5 bg-dark position-relative text-white text-center">
       <div class="container">
-      <p class="lead ">Copyright &copy; KodeGo Bootcamp</p>
-    </div>
-      <a href="#" class="position-absolute bottom-0 end-0 p-5"><i class="bi bi-arrow-up-circle h1"></a>
+        <p class="lead">Copyright &copy; KodeGo Bootcamp</p>
+
+        <a href="#" class="position-absolute bottom-0 end-0 p-5">
+          <i class="bi bi-arrow-up-circle h1"></i>
+        </a>
+      </div>
     </footer>
-
-
-    <!-- newsletter
-    <section class="bg-primary text-light p-5">
-      <div class="container">
-        <div class="d-md-flex justify-content-between align-items-center">
-            <h3>Sign Up For Our Newsletter</h3>
-            <div class="input-group news-input">
-              <input
-                type="text"
-                class="form-control"
-                placeholder="Enter Email"
-              />
-              <button class="btn btn-dark btn-lg" type="button">Submit</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="p-5">
-      <div class="container">
-        <div class="row text-center g-4">
-      <div class="col-md">
-        <div class="card bg-dark text-light">
-          <div class="card-body text-center">
-            <div class="h1 mb-3"><i class="bi bi-laptop"></i></div>
-            <h3 class="card-title mb-3">Services</h3>
-            <p class="card-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus
-              blanditiis voluptates odit magni accusantium!
-            </p>
-            <a href="services.html" class="btn btn-primary">Read More</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md">
-        <div class="card bg-dark text-light">
-          <div class="card-body text-center">
-            <div class="h1 mb-3"><i class="bi bi-laptop"></i></div>
-            <h3 class="card-title mb-3">Testimonials</h3>
-            <p class="card-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus
-              blanditiis voluptates odit magni accusantium!
-            </p>
-            <a href="services.html" class="btn btn-primary">Read More</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-md">
-        <div class="card bg-dark text-light">
-          <div class="card-body text-center">
-            <div class="h1 mb-3"><i class="bi bi-laptop"></i></div>
-            <h3 class="card-title mb-3">Contact</h3>
-            <p class="card-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus
-              blanditiis voluptates odit magni accusantium!
-            </p>
-            <a href="services.html" class="btn btn-primary">Read More</a>
-          </div>
-        </div>
-      </div>
-    </div>  
-    </div>
-    </section>
-
-
-    <section id="#learn" class="p-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md">
-            <img
-              src="./img/fundamentals.svg"
-              alt="fundamentals"
-              class="img-fluid"
-            />
-          </div>
-          <div class="col-md p-5">
-            <h2>Learn the Fundamentals</h2>
-            <p class="lead">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Distinctio ut ex aut rerum reprehenderit quibusdam labore
-              doloremque dicta dolorum neque.
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt ex
-              dicta dolorem incidunt, nam voluptatibus quasi sapiente eius
-              expedita exercitationem.
-            </p>
-            <a href="#" class="btn btn-light mt-3"
-              ><i class="bi bi-chevron-compact-right"></i>Read More</a
-            >
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="#learn" class="p-5 bg-dark text-white">
-      <div class="container">
-        <div class="row">
-          <div class="col-md p-5">
-            <h2>Learn React</h2>
-            <p class="lead">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Distinctio ut ex aut rerum reprehenderit quibusdam labore
-              doloremque dicta dolorum neque.
-            </p>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt ex
-              dicta dolorem incidunt, nam voluptatibus quasi sapiente eius
-              expedita exercitationem.
-            </p>
-            <a href="#" class="btn btn-light mt-3"
-              ><i class="bi bi-chevron-compact-right"></i>Read More</a
-            >
-          </div>
-          <div class="col-md">
-            <img src="./img/react.svg" alt="fundamentals" class="img-fluid" />
-          </div>
-        </div>
-      </div>
-    </section> -->
 
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
+
